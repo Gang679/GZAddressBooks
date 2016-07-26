@@ -1,8 +1,8 @@
 //
-//  ViewController.h
-//  GZAddressBooks
+//  FollwTableViewCell.h
+//  MeiChou
 //
-//  Created by xinshijie on 16/7/26.
+//  Created by xinshijie on 16/4/7.
 //  Copyright © 2016年 Mr.quan. All rights reserved.
 //
 /*
@@ -16,11 +16,12 @@
  * 博客    : http://gang679.blog.163.com
  *********************************************************************************
  */
+
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface FollwTableViewCell : UITableViewCell
 
+@property (nonatomic,strong)UIImageView *headerImage;
+@property (nonatomic, strong)UILabel *NameLabel;
 
 @end
-
-
